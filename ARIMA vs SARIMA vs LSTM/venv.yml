@@ -6,5 +6,6 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - ipykernel
   - pip:
     - ucimlrepo

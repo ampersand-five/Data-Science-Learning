@@ -12,7 +12,8 @@
   ```bash
   mba deactivate
   ```
-- Install new dependencies by adding them to the venv.yml file and then run:
+- Install new dependencies by adding them to the venv.yml file and then outside the
+environment (i.e. don't activate it first) run:
   ```bash
   mba env update -f venv.yml
   ```
