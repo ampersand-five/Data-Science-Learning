@@ -1,0 +1,10 @@
+name: asl
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.7
+  - numpy
+  - pandas
+  - matplotlib
+  - pip:
+    - ucimlrepo
