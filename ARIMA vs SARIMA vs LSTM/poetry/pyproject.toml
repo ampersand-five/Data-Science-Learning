@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "asl-poetry"
+version = "0.0.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^1.26.4"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+ipykernel = "^6.29.5"
+darts = "^0.31.0"
+statsmodels = "^0.14.4"
+ucimlrepo = "^0.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
