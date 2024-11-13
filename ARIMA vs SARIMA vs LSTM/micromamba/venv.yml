@@ -7,8 +7,8 @@ dependencies:
   - pandas
   - matplotlib
   - ipykernel
-  - darts
   # Many statsmodels can be done in Darts as well, they're both here for comparison
   - statsmodels
   - pip:
     - ucimlrepo
+    - darts
