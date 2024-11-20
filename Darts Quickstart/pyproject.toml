@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "darts-quickstart"
+version = "0.0.1"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "3.11.*"
+torch = "2.2.*"
+numpy = "1.*"
+matplotlib = "^3.9.2"
+ipykernel = "^6.29.5"
+darts = ">=0.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
